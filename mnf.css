@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --mainBackground: #1d1d1d;
+    --Hoverblue: #007aff;
+    --Dark: #161616;
+    --HeaderBG: rgba(34,34,34,.8);
+    --border: 1px solid #393939;
+    --IconColor: #999;
+    --white: #fff;
+}
+body {
+    background-color: var(--mainBackground);
+    color: var(--white);
+}
+.header {
+    width: 100%;
+    background-color: var(--HeaderBG);
+    display: flex;
+    justify-content: space-between;
+}
